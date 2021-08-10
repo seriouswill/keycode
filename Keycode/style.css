@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+#container {
+  display: flex;
+  border: 1px red solid;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
