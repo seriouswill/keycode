@@ -9,20 +9,23 @@
   </head>
   <body>
     <main>
-      <h1>Press any key!</h1>
+      <h1 id="description">Press any key!</h1>
       <div id="container">
         <div id="keybox">
-          <p id="keytitle"></p>
+          <p id="keytitle" class="title"></p>
           <p id="key"></p>
         </div>
         <div id="whichbox">
-          <p id="whichtitle"></p>
+          <p id="whichtitle" class="title"></p>
           <p id="which"></p>
         </div>
         <div id="codebox">
-          <p id="codetitle"></p>
+          <p id="codetitle" class="title"></p>
           <p id="code"></p>
         </div>
+      </div>
+      <div id="resetbox">
+        <button type="reset" id="reset">RESET</button>
       </div>
     </main>
     <script src="./main.js"></script>
